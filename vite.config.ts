@@ -5,4 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
 	plugins: [react(), tailwindcss()],
 	base: "/misprint_onboarding_demo/",
+	build: {
+		outDir: "docs",
+	},
 });
