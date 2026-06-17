@@ -12,7 +12,7 @@ function App() {
 			setIsMobile(mobile);
 			if (!mobile) {
 				const targetHeight = 844;
-				const padding = 80; // Keep nice spacing around the phone mockup
+				const padding = 80;
 				const availableHeight = window.innerHeight - padding;
 				if (availableHeight < targetHeight) {
 					setScale(availableHeight / targetHeight);
@@ -54,4 +54,3 @@ function App() {
 }
 
 export default App;
-
