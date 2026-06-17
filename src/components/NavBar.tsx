@@ -23,7 +23,7 @@ export default function NavBar() {
 				onClick={() => {}}
 			/>
 			<NavButton
-				icon={<img src="icon.png" className="w-10 h-10" />}
+				icon={<img src={`icon.png`} className="w-10 h-10" />}
 				label="Home"
 				isActive={true}
 				onClick={() => {}}

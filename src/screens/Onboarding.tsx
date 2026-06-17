@@ -144,7 +144,7 @@ function ScanToSellScreen() {
 							<div className="absolute top-1.5 right-1.5 w-2 h-2 border-t border-r border-primary" />
 							<div className="absolute bottom-1.5 left-1.5 w-2 h-2 border-b border-l border-primary" />
 							<div className="absolute bottom-1.5 right-1.5 w-2 h-2 border-b border-r border-primary" />
-							<img src="/card.png" className="w-10 h-16 rounded" />
+							<img src="card.png" className="w-10 h-16 rounded" />
 							<div className="absolute left-0 right-0 h-[2px] bg-primary animate-pulse shadow-[0_0_8px_#6466e9]" />
 						</div>
 						<span className="text-[10px] font-bold text-primary uppercase tracking-widest mb-1">
@@ -206,7 +206,7 @@ function BuyingAndBiddingScreen() {
 			<Card className="w-56 p-3">
 				<div className="relative w-full aspect-3/4 rounded-xl overflow-hidden mb-3">
 					<img
-						src="/card.png"
+						src="card.png"
 						alt="Card Visual"
 						className="w-full h-full object-cover"
 					/>
